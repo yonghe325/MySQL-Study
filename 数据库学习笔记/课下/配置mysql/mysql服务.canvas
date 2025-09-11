@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"f32fdf59a7e74013","type":"text","text":"端口","x":215,"y":135,"width":97,"height":50},
+		{"id":"dd9b01bde4ec6d68","type":"text","text":"\n# Mysql服务","x":312,"y":90,"width":198,"height":140},
+		{"id":"83b454e71f33b377","type":"text","text":"连接到MySQL服务(mysql数据库)的指令\n==mysql -h 主机IP -P 端口 -u 用户名 -p密码==\n-h默认为主机\n-p默认IP为3306\n-u root\n-p123456\n登录前必须保证mysql运行","x":-200,"y":60,"width":357,"height":200},
+		{"id":"7e634aee84621dcb","type":"text","text":"# 客户端\n主机","x":-400,"y":100,"width":142,"height":120},
+		{"id":"1dfef610a6543178","x":240,"y":380,"width":400,"height":400,"type":"file","file":"数据库三层结构/表,数据库,管理系统关系.canvas"}
+	],
+	"edges":[
+		{"id":"328073f873e4e5ea","fromNode":"7e634aee84621dcb","fromSide":"right","toNode":"83b454e71f33b377","toSide":"left"},
+		{"id":"61022d4fd02dead5","fromNode":"83b454e71f33b377","fromSide":"right","toNode":"f32fdf59a7e74013","toSide":"left"}
+	]
+}

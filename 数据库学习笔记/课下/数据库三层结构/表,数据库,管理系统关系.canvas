@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"fe3165ddd917b532","type":"group","x":-660,"y":-400,"width":1100,"height":800,"label":"Mysql"},
+		{"id":"f64ba48fa8a5edcd","type":"text","text":"大量的 表","x":-100,"y":-380,"width":120,"height":50},
+		{"id":"bd46bf6e69d81cf2","type":"text","text":"高级功能","x":-124,"y":-194,"width":98,"height":50},
+		{"id":"b43ae7f51f7ac058","type":"text","text":"客户端","x":-1220,"y":-260,"width":96,"height":50},
+		{"id":"c1ce62ff766776ec","type":"text","text":"客户端","x":-1220,"y":-145,"width":96,"height":50},
+		{"id":"abd6b3a7b7fe0193","type":"text","text":"命令终端\nDOS","x":-1124,"y":-273,"width":148,"height":76},
+		{"id":"94e1daa935de3c80","type":"text","text":"客户端","x":-1220,"y":-30,"width":96,"height":50},
+		{"id":"7e3e720899d40261","type":"text","text":"命令终端","x":-1124,"y":-158,"width":148,"height":76},
+		{"id":"e2430f2b950b1ecd","type":"text","text":"命令终端","x":-1124,"y":-43,"width":148,"height":76},
+		{"id":"0999b076545f3a6f","type":"text","text":"数据库01","x":-300,"y":-196,"width":100,"height":52},
+		{"id":"a12a83db6a6512cf","type":"file","file":"数据库学习图片/数据库路径.png","x":-160,"y":440,"width":400,"height":288},
+		{"id":"8cc25657c411bc7b","type":"text","text":"存放入Data文件夹里","x":-50,"y":728,"width":181,"height":50},
+		{"id":"8f50dded38da2773","type":"text","text":"# DBMS","x":-520,"y":-120,"width":120,"height":280},
+		{"id":"4ece2c0ec479e32f","type":"text","text":"数据库01","x":-300,"y":-101,"width":100,"height":52},
+		{"id":"bfe62005471bcd2f","type":"text","text":"数据库01","x":-300,"y":-20,"width":100,"height":52},
+		{"id":"ee1b35cb216dadb7","type":"text","text":"数据库01","x":-300,"y":80,"width":100,"height":52},
+		{"id":"ab1b9717c3f7562f","type":"text","text":"数据库...","x":-300,"y":160,"width":100,"height":60},
+		{"id":"779a9cf82993d257","type":"text","text":"终端","x":-599,"y":-75,"width":79,"height":50},
+		{"id":"1b4417c8f1bacb67","type":"text","text":"数据库本质仍是一份文件","x":-559,"y":-520,"width":239,"height":50},
+		{"id":"5d8783a8339835ed","type":"file","file":"数据库学习图片/数据库的本质.png","x":-634,"y":-631,"width":398,"height":111},
+		{"id":"425b457c12e25edb","type":"file","file":"数据库学习图片/mysqld收听端口.png","x":-935,"y":534,"width":752,"height":50},
+		{"id":"ef9842b6f7cd4962","type":"text","text":"mysqld程序是MySQL数据库管理系统的核心组件\n当MySQL服务器启动时\n它负责==在端口监听==来自客户端的网络连接\n并==代表==这些客户端对数据库进行访问","x":-760,"y":584,"width":402,"height":131}
+	],
+	"edges":[
+		{"id":"58fd53b8a51c5ec3","fromNode":"8f50dded38da2773","fromSide":"right","toNode":"0999b076545f3a6f","toSide":"left"},
+		{"id":"ea3149ecb665b454","fromNode":"8f50dded38da2773","fromSide":"right","toNode":"4ece2c0ec479e32f","toSide":"left"},
+		{"id":"327bca3d8ad731b7","fromNode":"8f50dded38da2773","fromSide":"right","toNode":"bfe62005471bcd2f","toSide":"left"},
+		{"id":"9cb939ec90958a3e","fromNode":"8f50dded38da2773","fromSide":"right","toNode":"ee1b35cb216dadb7","toSide":"left"},
+		{"id":"f2a698c273d38345","fromNode":"8f50dded38da2773","fromSide":"right","toNode":"ab1b9717c3f7562f","toSide":"left"},
+		{"id":"779738e7af677462","fromNode":"0999b076545f3a6f","fromSide":"right","toNode":"f64ba48fa8a5edcd","toSide":"left"},
+		{"id":"dcface8ef372e37c","fromNode":"0999b076545f3a6f","fromSide":"right","toNode":"bd46bf6e69d81cf2","toSide":"left"},
+		{"id":"1180e22ca0f10834","fromNode":"abd6b3a7b7fe0193","fromSide":"right","toNode":"779a9cf82993d257","toSide":"left"},
+		{"id":"f074beddf73c66e7","fromNode":"7e3e720899d40261","fromSide":"right","toNode":"779a9cf82993d257","toSide":"left"},
+		{"id":"a55b86c9019e7d67","fromNode":"e2430f2b950b1ecd","fromSide":"right","toNode":"779a9cf82993d257","toSide":"left"},
+		{"id":"10912b60b2fb9b0f","fromNode":"ab1b9717c3f7562f","fromSide":"bottom","toNode":"a12a83db6a6512cf","toSide":"top"},
+		{"id":"97097eb0673503a6","fromNode":"425b457c12e25edb","fromSide":"top","toNode":"779a9cf82993d257","toSide":"bottom"},
+		{"id":"9df97b11e2fc4d3b","fromNode":"1b4417c8f1bacb67","fromSide":"bottom","toNode":"0999b076545f3a6f","toSide":"top"}
+	]
+}

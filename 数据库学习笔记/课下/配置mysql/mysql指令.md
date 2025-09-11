@@ -1,0 +1,67 @@
+#  net start mysql94(服务名) : 启用mysql
+# net stop mysql94 : 退出mysql 
+#  mysql -u root -p : 打开mysq终端
+# quit  : 退出mysql终端  
+mysql服务仍在运行
+
+# show ==database**s**==;  : 显示数据库  
+![[batabases.png]]
+初始创建6个数据库
+# use <数据库名称> : 使用数据库 
+# show tables; : 显示表格
+
+# DESCRIBE <table_name>; : 查看表结构
+## ![[查看表的结构.png]]
+# SHOW COLUMNS FROM <table_name>; : 查看表结构
+## ![[查看表的结构.png]]
+# SELECT * FROM <table_name>; : 查看表中所有数据
+## ![[查看表的数据.png]]
+# create ==database== \<database_name> : 创建数据库
+# creat table : 创建表格
+## 最基础基础用法
+```
+create  table <table_name> ( 
+	<column_name01> data_type (size),
+	<column_name02> data_type (size),
+	<column_name03> data_type (size)
+ );
+```
+table_name为表的名称
+column_name为类的名称,每个==<column_name> data_type (size)==单元代表一列
+data_type为数据类型
+size为数据长度
+
+## 基础用法
+```
+CREATE TABLE users (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	username VARCHAR(50) NOT NULL,
+	email VARCHAR(100) NOT NULL,
+	birthdate DATE,
+	is_active BOOLEAN DEFAULT TRUE
+) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+```
+创建名为id的第一列,id列是主关键字 *(PRIMARY KEY)*,并且自动增长 *(AUTO_INCREMENT)*
+创建username列,email列 , 且username列,email列是变长字符串类型,不允许为空 *(NOT NULL)*
+birthdate 列是日期类型 *(DATE)*
+is_active列是布尔类型,默认值设为 *(DEFAULT)* true
+使用utf8mb4字符集 *(CHARACTER SET)*
+排序规则为 *(COLLATE)* utf8mb4_general_ci
+
+# netstat 显示关于网络连接、路由表、接口统计等的信息
+netstat \[-a] \[-b] \[-e] \[-n] \[-o] \[-p \<Protocol>] \[-r] \[-s] \[\<interval>]
+- _-a_：显示所有活动的TCP连接和计算机正在监听的TCP和UDP端口。
+    
+- _-b_：显示创建每个连接或监听端口的可执行文件。
+    
+- _-e_：显示以太网统计信息，例如发送和接收的字节数和数据包。
+    
+- _-n_：以数字形式显示地址和端口号，不尝试解析名称。
+    
+- _-o_：显示活动的TCP连接，并包括每个连接的进程ID（PID）。
+    
+- _-p_：显示由Protocol指定的协议的连接。
+    
+- _-r_：显示IP路由表。
+    
+- _-s_：按协议显示统计信息。

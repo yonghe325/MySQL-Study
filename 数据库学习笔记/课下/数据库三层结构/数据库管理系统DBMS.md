@@ -1,0 +1,3 @@
+Mysql本质上是一个数据库管理系统DBMS
+database manage system
+可以管理多个数据库
