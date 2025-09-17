@@ -10,3 +10,13 @@
 
 一些指令
 
+\# 9.17
+
+数据库CRUD指令中的
+
+insert
+
+update
+
+delete指令
+
