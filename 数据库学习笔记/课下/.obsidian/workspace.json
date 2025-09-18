@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库CRUD指令/select 查询语句.md",
+                "file": "数据库CRUD指令/select函数/合集 统计函数 - count.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "select 查询语句"
+              "title": "合集 统计函数 - count"
             }
           }
         ],
@@ -186,8 +186,13 @@
   },
   "active": "8f79852fd7dc18d6",
   "lastOpenFiles": [
-    "数据库CRUD指令/update 修改数据.md",
+    "数据库CRUD指令/delete 删除语句.md",
+    "数据库CRUD指令/select函数/合集 统计函数 - count.md",
     "数据库CRUD指令/select 查询语句.md",
+    "数据库CRUD指令/select函数",
+    "未命名.md",
+    "数据库CRUD指令/update 修改数据.md",
+    "配置mysql/2.mysql指令.md",
     "数据库CRUD指令/insert 添加语句.md",
     "数据库学习图片/insert插入进阶03png.png",
     "数据库学习图片/insert插入进阶03png.png.crdownload",
@@ -195,10 +200,8 @@
     "数据库学习图片/insert插入进阶02png.png.crdownload",
     "数据库学习图片/insert插入进阶01png.png",
     "数据库学习图片/insert插入进阶01png.png.crdownload",
-    "数据库CRUD指令/delete 删除语句.md",
     "表操作/3修改表.md",
     "数据库CRUD指令",
-    "配置mysql/2.mysql指令.md",
     "表操作/1.创建,删除表.md",
     "表操作/2.1mysql常用数据类型 (列类型).md",
     "表操作/2.3字符串的使用.md",
@@ -227,7 +230,6 @@
     "数据库三层结构/三.md",
     "数据库三层结构/数据库.md",
     "数据库三层结构",
-    "数据库学习图片",
     "mysql服务.md"
   ]
 }
