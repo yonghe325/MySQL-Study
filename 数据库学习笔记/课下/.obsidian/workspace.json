@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库CRUD指令/select函数/合集 统计函数 - count.md",
+                "file": "数据库CRUD指令/select函数 子句/字符串函数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "合集 统计函数 - count"
+              "title": "字符串函数"
             }
           }
         ],
@@ -186,14 +186,24 @@
   },
   "active": "8f79852fd7dc18d6",
   "lastOpenFiles": [
+    "数据库学习图片/concat.png",
+    "数据库学习图片/charset.png",
+    "数据库CRUD指令/select函数 子句/group by 子句.md",
+    "数据库CRUD指令/select函数 子句/字符串函数.md",
+    "数据库CRUD指令/select函数 子句/order by 子句.md",
+    "数据库学习图片/group by演示01.png",
     "数据库CRUD指令/delete 删除语句.md",
-    "数据库CRUD指令/select函数/合集 统计函数 - count.md",
     "数据库CRUD指令/select 查询语句.md",
-    "数据库CRUD指令/select函数",
+    "数据库CRUD指令/select函数 子句/where 子句.md",
+    "数据库CRUD指令/insert 添加语句.md",
+    "数据库CRUD指令/select函数 子句/统计函数 - count.md",
+    "数据库CRUD指令/select函数 子句/合计函数 - sum,avg,max,min.md",
+    "数据库学习图片/count(列名).png",
+    "数据库学习图片/count(xing).png",
+    "数据库CRUD指令/select函数 子句",
     "未命名.md",
     "数据库CRUD指令/update 修改数据.md",
     "配置mysql/2.mysql指令.md",
-    "数据库CRUD指令/insert 添加语句.md",
     "数据库学习图片/insert插入进阶03png.png",
     "数据库学习图片/insert插入进阶03png.png.crdownload",
     "数据库学习图片/insert插入进阶02png.png",
@@ -216,20 +226,13 @@
     "数据库操作/3.查询,设置数据库权限.md",
     "数据库学习图片/备份指令02.png",
     "数据库学习图片/备份指令01.png",
-    "数据库学习图片/备份路径.png",
-    "数据库学习图片/查看用户权限.png",
-    "数据库学习图片/备份数据库.png",
     "数据库操作",
     "查看删除数据库",
     "数据库三层结构/表,数据库,管理系统关系.canvas",
     "数据库三层结构/字符集,校对规则.md",
     "数据库三层结构/SQL语句分类.md",
     "数据库三层结构/表.md",
-    "数据库学习图片/查看表的数据.png",
     "数据库三层结构/数据库管理系统DBMS.md",
-    "数据库三层结构/三.md",
-    "数据库三层结构/数据库.md",
-    "数据库三层结构",
-    "mysql服务.md"
+    "数据库三层结构"
   ]
 }
