@@ -28,3 +28,7 @@ select指令
 
 select的函数
 
+\# 9.20
+
+select的数学,日期函数
+
