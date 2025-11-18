@@ -1,0 +1,9 @@
+CREATE TABLE `order` (
+	id INT PRIMARY KEY,
+	goods_name VARCHAR(50) NOT NULL DEFAULT ' ',
+	customer VARCHAR(50) NOT NULL DEFAULT ' ',
+	num INT NOT NULL DEFAULT 1
+);
+
+SHOW INDEX FROM `order` ;
+ALTER TABLE `order` ADD PRIMARY KEY (id);

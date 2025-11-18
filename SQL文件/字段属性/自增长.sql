@@ -1,0 +1,11 @@
+CREATE DATABASE db_02;
+CREATE TABLE auto_add (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	email VARCHAR(32) NOT NULL DEFAULT '',
+	`naem` VARCHAR(32) NOT NULL DEFAULT ''
+);
+SELECT * FROM auto_add;
+DESC auto_add;
+
+INSERT INTO auto_add VALUES
+	(NULL,'e01','jack');
